@@ -322,18 +322,18 @@
     </div>
     <script>
         let todayGames = [
-            { time: "7:00 PM ET", away: "Atlanta Hawks", home: "Charlotte Hornets", us: [{ name: "FanDuel Sports Network SE", number: "206", type: "Regional" }], ca: [{ name: "NBA League Pass", number: "N/A", type: "Streaming" }] },
-            { time: "7:00 PM ET", away: "New York Knicks", home: "Indiana Pacers", us: [{ name: "MSG Network", number: "N/A", type: "Regional" }], ca: [{ name: "NBA League Pass", number: "N/A", type: "Streaming" }] },
-            { time: "7:30 PM ET", away: "Miami Heat", home: "Brooklyn Nets", us: [{ name: "FanDuel Sports Network Sun", number: "N/A", type: "Regional" }], ca: [{ name: "NBA League Pass", number: "N/A", type: "Streaming" }] },
-            { time: "8:00 PM ET", away: "LA Clippers", home: "Oklahoma City Thunder", us: [{ name: "NBA TV", number: "216", type: "National Cable" }], ca: [{ name: "NBA TV Canada", number: "N/A", type: "National" }] },
-            { time: "8:00 PM ET", away: "Houston Rockets", home: "New Orleans Pelicans", us: [{ name: "Space City Home Network", number: "N/A", type: "Regional" }], ca: [{ name: "NBA League Pass", number: "N/A", type: "Streaming" }] },
-            { time: "8:00 PM ET", away: "Toronto Raptors", home: "Milwaukee Bucks", us: [{ name: "FanDuel Sports Network WI", number: "N/A", type: "Regional" }], ca: [{ name: "TSN", number: "4", type: "National Cable" }] },
-            { time: "8:30 PM ET", away: "Detroit Pistons", home: "Dallas Mavericks", us: [{ name: "FanDuel Sports Network Detroit", number: "N/A", type: "Regional" }], ca: [{ name: "NBA League Pass", number: "N/A", type: "Streaming" }] },
-            { time: "9:00 PM ET", away: "Golden State Warriors", home: "Phoenix Suns", us: [{ name: "NBC Sports Bay Area", number: "N/A", type: "Regional" }], ca: [{ name: "NBA League Pass", number: "N/A", type: "Streaming" }] },
-            { time: "9:00 PM ET", away: "Orlando Magic", home: "Denver Nuggets", us: [{ name: "Altitude Sports", number: "N/A", type: "Regional" }], ca: [{ name: "NBA League Pass", number: "N/A", type: "Streaming" }] },
-            { time: "9:00 PM ET", away: "Los Angeles Lakers", home: "Utah Jazz", us: [{ name: "Spectrum SportsNet", number: "N/A", type: "Regional" }], ca: [{ name: "NBA League Pass", number: "N/A", type: "Streaming" }] },
-            { time: "10:00 PM ET", away: "Sacramento Kings", home: "Portland Trail Blazers", us: [{ name: "NBC Sports California", number: "N/A", type: "Regional" }], ca: [{ name: "NBA League Pass", number: "N/A", type: "Streaming" }] },
-            { time: "8:00 PM ET", away: "Washington Wizards", home: "San Antonio Spurs", us: [{ name: "Monumental Sports Network 2", number: "N/A", type: "Regional" }], ca: [{ name: "NBA League Pass", number: "N/A", type: "Streaming" }] }
+            { time: "7:00 PM ET", away: "Atlanta Hawks", home: "Charlotte Hornets", us: [{ name: "FanDuel Sports Network SE", number: "206", type: "Regional" }, { name: "NBA League Pass", number: "N/A", type: "Streaming" }], ca: [{ name: "NBA League Pass", number: "N/A", type: "Streaming" }, { name: "Sportsnet", number: "N/A", type: "National" }] },
+            { time: "7:00 PM ET", away: "New York Knicks", home: "Indiana Pacers", us: [{ name: "MSG Network", number: "N/A", type: "Regional" }, { name: "NBA League Pass", number: "N/A", type: "Streaming" }], ca: [{ name: "NBA League Pass", number: "N/A", type: "Streaming" }, { name: "Sportsnet", number: "N/A", type: "National" }] },
+            { time: "7:30 PM ET", away: "Miami Heat", home: "Brooklyn Nets", us: [{ name: "FanDuel Sports Network Sun", number: "N/A", type: "Regional" }, { name: "YES Network", number: "N/A", type: "Regional" }], ca: [{ name: "NBA League Pass", number: "N/A", type: "Streaming" }, { name: "TSN", number: "4", type: "National" }] },
+            { time: "8:00 PM ET", away: "LA Clippers", home: "Oklahoma City Thunder", us: [{ name: "NBA TV", number: "216", type: "National Cable" }, { name: "FanDuel Sports Network SoCal", number: "N/A", type: "Regional" }], ca: [{ name: "NBA TV Canada", number: "N/A", type: "National" }, { name: "Sportsnet", number: "N/A", type: "National" }] },
+            { time: "8:00 PM ET", away: "Houston Rockets", home: "New Orleans Pelicans", us: [{ name: "Space City Home Network", number: "N/A", type: "Regional" }, { name: "NBA League Pass", number: "N/A", type: "Streaming" }], ca: [{ name: "NBA League Pass", number: "N/A", type: "Streaming" }, { name: "TSN", number: "4", type: "National" }] },
+            { time: "8:00 PM ET", away: "Toronto Raptors", home: "Milwaukee Bucks", us: [{ name: "FanDuel Sports Network WI", number: "N/A", type: "Regional" }, { name: "NBA League Pass", number: "N/A", type: "Streaming" }], ca: [{ name: "TSN", number: "4", type: "National Cable" }, { name: "Sportsnet", number: "N/A", type: "National" }] },
+            { time: "8:30 PM ET", away: "Detroit Pistons", home: "Dallas Mavericks", us: [{ name: "FanDuel Sports Network Detroit", number: "N/A", type: "Regional" }, { name: "Bally Sports Southwest", number: "N/A", type: "Regional" }], ca: [{ name: "NBA League Pass", number: "N/A", type: "Streaming" }, { name: "TSN", number: "4", type: "National" }] },
+            { time: "9:00 PM ET", away: "Golden State Warriors", home: "Phoenix Suns", us: [{ name: "NBC Sports Bay Area", number: "N/A", type: "Regional" }, { name: "Arizona's Family 3TV", number: "3", type: "Local" }], ca: [{ name: "NBA League Pass", number: "N/A", type: "Streaming" }, { name: "Sportsnet", number: "N/A", type: "National" }] },
+            { time: "9:00 PM ET", away: "Orlando Magic", home: "Denver Nuggets", us: [{ name: "Altitude Sports", number: "N/A", type: "Regional" }, { name: "FanDuel Sports Network Florida", number: "N/A", type: "Regional" }], ca: [{ name: "NBA League Pass", number: "N/A", type: "Streaming" }, { name: "TSN", number: "4", type: "National" }] },
+            { time: "9:00 PM ET", away: "Los Angeles Lakers", home: "Utah Jazz", us: [{ name: "Spectrum SportsNet", number: "N/A", type: "Regional" }, { name: "KJZZ-TV", number: "2", type: "Local" }], ca: [{ name: "NBA League Pass", number: "N/A", type: "Streaming" }, { name: "Sportsnet", number: "N/A", type: "National" }] },
+            { time: "10:00 PM ET", away: "Sacramento Kings", home: "Portland Trail Blazers", us: [{ name: "NBC Sports California", number: "N/A", type: "Regional" }, { name: "KUNP", number: "16", type: "Local" }], ca: [{ name: "NBA League Pass", number: "N/A", type: "Streaming" }, { name: "TSN", number: "4", type: "National" }] },
+            { time: "8:00 PM ET", away: "Washington Wizards", home: "San Antonio Spurs", us: [{ name: "Monumental Sports Network 2", number: "N/A", type: "Regional" }, { name: "FanDuel Sports Network Southwest", number: "N/A", type: "Regional" }], ca: [{ name: "NBA League Pass", number: "N/A", type: "Streaming" }, { name: "Sportsnet", number: "N/A", type: "National" }] }
         ];
         function getTodayDate() {
             const today = new Date();
@@ -367,15 +367,42 @@
         function openGameDetails(gameIndex) {
             const game = todayGames[gameIndex];
             document.getElementById('modalMatchup').textContent = `${game.away} @ ${game.home} • ${game.time}`;
-            let html = `<div class="broadcaster-group"><div class="broadcaster-title us">🇺🇸 US Broadcasters</div><div class="channel-list">`;
+            let html = `
+                <div class="broadcaster-group">
+                    <div class="broadcaster-title us">🇺🇸 US Broadcasters</div>
+                    <div class="channel-list">
+            `;
             game.us.forEach(channel => {
-                html += `<div class="channel-card"><div class="channel-number">${channel.number}</div><div class="channel-name">${channel.name}</div><div class="channel-type">${channel.type}</div>${channel.stream ? `<div class="stream-badge">${channel.stream}</div>` : ''}</div>`;
+                html += `
+                    <div class="channel-card">
+                        <div class="channel-number">${channel.number}</div>
+                        <div class="channel-name">${channel.name}</div>
+                        <div class="channel-type">${channel.type}</div>
+                        ${channel.stream ? `<div class="stream-badge">${channel.stream}</div>` : ''}
+                    </div>
+                `;
             });
-            html += `</div></div><div class="broadcaster-group"><div class="broadcaster-title ca">🇨🇦 Canadian Broadcasters</div><div class="channel-list">`;
+            html += `
+                    </div>
+                </div>
+                <div class="broadcaster-group">
+                    <div class="broadcaster-title ca">🇨🇦 Canadian Broadcasters</div>
+                    <div class="channel-list">
+            `;
             game.ca.forEach(channel => {
-                html += `<div class="channel-card"><div class="channel-number">${channel.number}</div><div class="channel-name">${channel.name}</div><div class="channel-type">${channel.type}</div>${channel.stream ? `<div class="stream-badge">${channel.stream}</div>` : ''}</div>`;
+                html += `
+                    <div class="channel-card">
+                        <div class="channel-number">${channel.number}</div>
+                        <div class="channel-name">${channel.name}</div>
+                        <div class="channel-type">${channel.type}</div>
+                        ${channel.stream ? `<div class="stream-badge">${channel.stream}</div>` : ''}
+                    </div>
+                `;
             });
-            html += `</div></div>`;
+            html += `
+                    </div>
+                </div>
+            `;
             document.getElementById('modalBody').innerHTML = html;
             document.getElementById('detailsModal').classList.add('active');
         }
